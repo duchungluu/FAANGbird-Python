@@ -1,5 +1,5 @@
 from itertools import cycle
-from mip import solve
+# from mip import solve 
 import random
 import sys
 
@@ -239,7 +239,7 @@ def mainGame(movementInfo):
                     SOUNDS['wing'].play()
             
 
-        flap, traj = solve(playery, playerVelY, lowerPipes)
+        # flap, traj = solve(playery, playerVelY, lowerPipes)
 
 
         if flap:
